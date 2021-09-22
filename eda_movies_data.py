@@ -10,11 +10,11 @@ import seaborn as sns
 # steps:
 # 1- importer la database
 # 2-  extraire le dossier <archive>
-!unzip movies.zip
-# 3- livre le fichier csv " tmdb_movies_data.csv:    
+!unzip movies_data.zip
+# 3- lire le fichier csv " movies_data.csv:    
 df=pd.read_csv('movies_data.csv')
 
-#1/ decouvrir la DB
+#1/ decouvrir la base de donnees
 df.head()
 
 #2/ voir la taille de la data
